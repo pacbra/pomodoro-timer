@@ -1,0 +1,70 @@
+:root{
+  --red: #F0645E;
+  --green: #55BD37;
+}
+
+body{
+  background-image: url(clouds.jpg);
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  font-family: 'BIZ UDGothic', sans-serif;
+  text-align: center;
+}
+
+
+main{
+  max-width: 400px;
+  max-height: 550px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+
+.timerBlock{
+  height: 550px;
+}
+
+.timer{
+  padding: 20px;
+}
+
+.settings {
+  padding: 20px;
+  height: 300px;
+  font-size: 1.2rem;
+}
+
+label{
+  display: block;
+  text-align: left;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+button{
+  background-color: transparent;
+  color: #3D3D3D;
+  border: 0;
+  display: inline-block;
+  width: 80px;
+  cursor: pointer;
+  font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.backButton{
+  margin-top: 20px;
+  width: auto;
+  font-size: 1.3rem
+}
+
+.backButton svg{
+  width: 22px;
+  float: left;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap');
